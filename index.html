@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Dragonframe Seq Tool</title>
+  </head>
+  <style  type="text/css">
+        p {color:rgb(59, 59, 59);
+           line-height: 15px;
+           margin-block-start: 10px;
+          }
+             </style>
+  <body style="text-align: center;">
+   
+      <img src="./static/timg (13).jpg" width="130px" > 
+      <h1>Dragonframe 序列帧处理工具 </h1>
+      <h5 style="width: 400px;margin:0 auto;color:rgb(100, 100, 100);font-weight: 500;">Dragonframe 序列帧处理工具可以帮助你绕开软件渲染，依靠软件生成的摄影表文件，将序列帧源文件按照摄影表直接转化为新的序列，方便后期制作。</h5>
+      <br>
+      <p id="inpt" style="color: rgb(200, 200, 200);margin-block-end: 8px;">……</p>
+      <button type="button" id="btn"style="width:200px;height:30px;background-color:rgb(255, 255, 255);font-weight: 700;">Choose the "TAKE_X1"</button>
+      
+      <p>注意 : 此文件夹的名称通常以“X1”作为结尾！</p>
+      <br>
+      <p id="inptxml" style="color: rgb(200, 200, 200);margin-block-end: 8px;">……</p>
+      <button type="button" id="btnxml" style="width:200px;height:30px;background-color:rgb(255, 255, 255);font-weight: 700;">Choose the "take.xml"</button>
+
+      
+      <p>注意 : take.xml需要和X1文件相配套，通常情况下和X1文件夹在同一目录下</p>
+      <br><br>
+      <button type="button" id="btnstart" style="width:100px;height:40px;background-color:rgb(49, 49, 49);font-size: 150%;color: #fff;font-weight: 700;" >START</button>
+      <p>注意 : 新文件夹newtake和take.xml在同一目录下</p>
+ 
+ 
+    <script src="./renderer.js"></script>
+  </body>
+</html>

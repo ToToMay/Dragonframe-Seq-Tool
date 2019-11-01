@@ -1,0 +1,24 @@
+{
+  "name":"dragonframe-seq-tool",
+  "version": "1.0.0",
+  "description": "Sorting the sequences based on the Photograph table quickly and losslessly.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/ToToMay/Dragonframe-Seq-Tool",
+  "keywords": [
+    "Electron",
+    "dragonframe",
+    "stopmotion",
+    "sequences",
+    "demo",
+    "tool"
+
+  ],
+  "author": "GitHub and ToToMay",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^7.0.0"
+  }
+}
